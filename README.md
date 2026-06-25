@@ -1,15 +1,15 @@
 # Rublik Cube Solver 3D
 
-A real-time 3D Rubik's Cube simulator with an integrated solver, built entirely in Python. Renders the cube using ModernGL (OpenGL 3.3), provides smooth move animations, and can solve any scramble using the Kociemba algorithm.
+A real-time 3D Rubik's Cube solver and animator with a modern dark-themed GUI. Built entirely in Python — renders the cube using ModernGL (OpenGL 3.3), animates moves with smooth easing, and solves any scramble via the Kociemba two-phase algorithm.
 
 ## Purpose
 
-This project is a learning tool and interactive toy for anyone interested in how a Rubik's Cube works under the hood. It was built to demonstrate:
+This project exists as both an interactive toy and a teaching tool for anyone curious about how a Rubik's Cube works in code. It demonstrates:
 
-- How cube state can be represented and manipulated in code (a 27×6 array tracking each cubie's face colors)
-- How rotation transforms affect both cubie positions and face normals
-- How an existing solver library can be integrated into a real-time 3D application
-- How a lightweight OpenGL renderer can be embedded inside a desktop GUI
+- Representing cube state as a 27×6 matrix (27 cubies × 6 face colors)
+- Simulating physical rotations by transforming cubie positions and remapping face normals
+- Integrating a C-optimized solver (Kociemba) into a real-time Python application
+- Embedding a lightweight OpenGL renderer inside a desktop GUI via CustomTkinter
 
 ## Features
 
