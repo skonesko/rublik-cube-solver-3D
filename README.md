@@ -1,5 +1,9 @@
 # Rublik Cube Solver 3D
 
+<p align="center">
+  <img src="image.png" alt="App screenshot" width="720">
+</p>
+
 A real-time 3D Rubik's Cube solver and animator with a modern dark-themed GUI. Built entirely in Python — renders the cube using ModernGL (OpenGL 3.3), animates moves with smooth easing, and solves any scramble via the Kociemba two-phase algorithm.
 
 ## Purpose
